@@ -1,5 +1,5 @@
 /* 
- * File:   main.cpp
+ * File:   vv_chess_phone_numbers.cpp
  * Author: venera-varbanova
  *
  * Created on January 16, 2018, 10:52 AM
