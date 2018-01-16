@@ -60,7 +60,7 @@ static int CalculateNumValidPhoneNumbers(
 					 const vector<int>& valid_starting_digits,
 					 int num_board_rows, int num_board_cols, int phone_number_length) {
 
-  // column per digit, 0 to 0
+  // column per digit, 0 to 9
   vector<int> num_phones_ending_in(10, 0);
 
   // init for size of 1
