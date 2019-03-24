@@ -1,0 +1,7 @@
+language: cpp
+compiler: g++
+
+script:
+ - cd permute_string
+ - make
+ - ./permute_string
