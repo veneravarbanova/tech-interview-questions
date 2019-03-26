@@ -11,7 +11,7 @@ os:
 script:
  - pwd
  - ls -la
- - make clean
  - make
+ - ls -la
  - which valgrind
  
