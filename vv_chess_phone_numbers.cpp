@@ -25,10 +25,10 @@ static const bool g_trace = true;
 
 // Could have been done during input
 
-static map<int, pair<int, int>> MapDigitToPosition(vector<vector<char>> &board,
+static map<int, pair<int, int> > MapDigitToPosition(vector<vector<char>> &board,
                                                    int num_rows, int num_cols)
 {
-  map<int, pair<int, int>> digit_to_position;
+  map<int, pair<int, int> > digit_to_position;
 
   for (int row = 0; row < num_rows; row++)
   {
